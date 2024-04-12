@@ -1,0 +1,27 @@
+{
+    "name": "chrome-extension-react",
+    "version": "1.0.0",
+    "description": "Chrome Extension with React",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    },
+   "content_scripts":[
+        {
+             "matches":[
+                "<all_urls>"
+             ],
+             "js":[
+                "./static/index.js"
+             ],
+             "css":[
+                "./static/index.css"
+             ]
+        }
+   ]
+ 
+ }
