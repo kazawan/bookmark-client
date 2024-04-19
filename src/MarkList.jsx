@@ -27,7 +27,7 @@ export default function MarkList() {
             >
             
             
-                <div className="  h-full col-span-5 truncate  text-white">
+                <div className="  h-full col-span-5 truncate  ">
                        <div className=" h-[20%] truncate text-xl mb-2">
                         {item.title}
                        </div>
